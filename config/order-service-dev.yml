@@ -25,7 +25,7 @@ management:
     web:
       exposure:
         include: hystrix.stream
-        
+     
 ---
 spring:
   profiles: order1
@@ -39,4 +39,5 @@ spring:
   
 server:
   port: 8202
+  
   
